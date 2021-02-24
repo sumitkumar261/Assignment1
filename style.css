@@ -1,0 +1,128 @@
+/* Gropu no- 8 
+  Names:
+  Sumit Kumar(B19118)
+  Sumit Kumar Yadav(B19118)
+  Surendra Singh(B19120)
+  Anjali Choudhary(B19067)
+  Veeransh Singh(B19121)
+  Abhishek Kumar(B19064)-->*/
+body {
+  background-color: #d1d725;
+}
+
+h1 {
+  color: #800080;
+  font-family: Verdana;
+}
+.content {
+  float: left;
+  padding: 10px; 
+}
+.slider {
+  display: inline-block;
+}
+.content p {
+  color: #800080;
+}
+
+ul {
+  list-style-type: none;
+  margin-top: 50px;
+  padding: 0;
+}
+
+li {
+  border-right: 1em solid black;
+}
+
+.home a {
+  display: block;
+  color: blue;
+  background-color: white;
+  padding: 25px 45px;
+  text-decoration: none;
+  border: 5px solid white;
+}
+.home a:hover {
+  background-color: #0cc59f;
+  color: blue;
+  border: 5px solid white;
+}
+
+.dropbtn a {
+  display: block;
+  color: blue;
+  background-color: white;
+  padding: 25px 45px;
+  text-decoration: none;
+  border: 5px solid white;
+  position: relative;
+}
+.dropbtn a:hover {
+  background-color: #0cc59f;
+  color: blue;
+  border: 5px solid white;
+  cursor: pointer;
+}
+.dropdown-content {
+  display: none;
+  padding-top: 5px;
+  position: absolute;
+}
+.dropdown-content .google {
+  display: block;
+  color: blue;
+  background-color: white;
+  padding: 25px 45px;
+  text-decoration: none;
+  border: 5px solid white;
+}
+.dropdown-content .google:hover {
+  background-color: #303f6d;
+  color: rgb(94, 6, 82);
+  border: 5px solid white;
+  cursor: pointer;
+}
+.dropdown-content .iit {
+  display: block;
+  color: blue;
+  background-color: white;
+  padding: 25px 45px;
+  text-decoration: none;
+  border: 5px solid white;
+}
+.dropdown-content .iit:hover {
+  background-color: #0cc59f;
+  color: #230770;
+  border: 5px solid white;
+  cursor: pointer;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+  margin-left: 25px;
+}
+.dropdown:hover .link1 {
+  background-color: #0cc59f;
+}
+
+table,
+th,
+td {
+  border: 1px solid #63097b;
+  color: #63097b;
+}
+table {
+  margin-top: 75px;
+}
+
+hr.newhr {
+  margin-top: 40px;
+  border: 1px dashed red;
+}
+.audio1 {
+  margin-top: 110px;
+}
+#footer {
+  font-style: italic;
+  padding-bottom: 150px;
+}

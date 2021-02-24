@@ -1,0 +1,144 @@
+<!-- Gropu no- 8 
+ 	Names:
+ 	Sumit Kumar(B19118)
+ 	Sumit Kumar Yadav(B19118)
+ 	Surendra Singh(B19120)
+ 	Anjali Choudhary(B19067)
+ 	Veeransh Singh(B19121)
+ 	Abhishek Kumar(B19064)-->
+
+<!DOCTYPE html>
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width-device-width">
+    <meta name="description" content="Assignment Number 1 Web Page">
+    <meta name="author" content="Group 8 CS207">
+    <title>Assignment1-CS207</title>
+    <link rel="stylesheet" href="style.css">  
+  </head>
+
+  <body>
+
+    <div class="content left">
+      <ul class="list2">
+        <li class="home">
+          <a class="home1" href="Assignment1.html">Home page</a>
+        </li>
+        <br>
+        <div class="dropdown"> 
+          <li class="dropbtn">
+            <a class="link1" href="#links">Links</a>
+          </li>
+            <div class="dropdown-content">
+                <li style="list-style-type:circle;"><a class="google" href="https://www.google.com/">Google</a></li>
+                <br>
+                <li style="list-style-type:circle;"><a class="iit" href="https://www.iitmandi.ac.in/">IIT Mandi</a></li>
+            </div>
+          </div>
+      </ul>
+    </div>
+
+
+    <div class="content right">
+      <h1>Assignment Number 1</h1>	
+      <p>Welcome to CS 207</p>
+      <input id="input1" type="range" oninput="myFunction(this.value)">                             
+      
+      <div class="slider left1">
+      <script>
+      function myFunction(val) {
+      document.getElementById("demo").innerHTML = val;
+      doMath(); 
+      }
+      </script>
+      <div class="slider left2"><p> + </p></div>
+
+      </div>
+      <div class="slider left3">
+      	<input type="number" id="input2" name="quantity" min="1" max="100" oninput="doMath()">
+  	 </div>
+  	 <div class="slider left4"><p> = </p></div>
+  	 <div class="slider left5"><p id="result"> </p></div>
+
+  	 <script>
+      function doMath() {
+        var my_input1 = document.getElementById('input1').value;
+        var my_input2 = document.getElementById('input2').value;
+        var sum = parseInt(my_input1) + parseInt(my_input2);
+        document.getElementById("result").innerHTML = sum;
+      }
+      </script>
+  	 <p id="demo"></p>
+  	 
+  	 
+      <p><a href="#footer">Jump Link</a></p>
+
+      <table>
+        <tr>
+          <th>No.</th>
+          <th>Name</th> 
+          <th>Email</th>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td>Clark Kent</td>
+          <td>clarkkent@mail.com</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>Peter Parker</td>
+          <td>peterparker@mail.com</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>Bruce Wayne</td>
+          <td>brucewayne@mail.com</td>
+        </tr>
+        <tr>
+          <td>4</td>
+          <td>Tony Stark</td>
+          <td>tonystark@mail.com</td>
+        </tr>
+        <tr>
+          <td>5</td>
+          <td>Bucky Barnes</td>
+          <td>buckybarnes@mail.com</td>
+        </tr>
+        <tr>
+          <td>6</td>
+          <td>Reed Richards</td>
+          <td>reedrichards@mail.com</td>
+        </tr>
+        <tr>
+          <td>7</td>
+          <td>J'onn J'onzz</td>
+          <td>jonnjonzz@mail.com</td>
+        </tr>
+        <tr>
+          <td>8</td>
+          <td>Sheira Sanders</td>
+          <td>sheirasanders@mail.com</td>
+        </tr>
+      
+      </table>
+
+      <div class="audio1">
+        <audio controls>
+          <source src="horse.ogg" type="audio/ogg">
+        </audio>
+      </div>
+      <hr class="newhr">
+      <div id="footer">
+        <p>Made 19th August 2019</p>
+        <p>for CS-207.</p>
+      </div>
+
+      
+      
+    </div>
+
+  </body>
+
+</html>
